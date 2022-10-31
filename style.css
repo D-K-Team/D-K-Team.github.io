@@ -1,0 +1,37 @@
+body {
+    /* background-color: rgb(255, 255, 255); */
+    background: url(back.png) no-repeat fixed;
+    background-size:100% 100%;
+
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: orange;
+}
+
+li {
+    font-family: myFont;
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 12px 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: #BD7400;
+    text-decoration: underline;
+}
+
+h3 {
+    color: white;
+    font-family: myFont;
+}
